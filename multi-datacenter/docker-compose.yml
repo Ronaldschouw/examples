@@ -19,6 +19,7 @@ services:
       - zookeeper-dc1
     ports:
       - "9091:9091"
+      - "29091:29091"
     environment:
       KAFKA_BROKER_ID: 1
       KAFKA_JMX_PORT: 9991
